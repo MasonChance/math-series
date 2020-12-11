@@ -6,22 +6,20 @@ from math_series import series
 def test_version():
     assert __version__ == '0.1.0'
 
-def test_fib_num():
-    actual = series.fib_num(5)
+def test_fibbonacci():
+    actual = series.fibbonacci(5)
     expected = 3
     assert actual == expected 
 
 
-def test_lucas_num():
-    actual = series.lucas_num(5)
+def test_lucas():
+    actual = series.lucas(5)
     expected = 7
     assert actual == expected
 
 def test_sum_series_default():
-
     actual = series.sum_series(5)
     expected = 3
-
     assert actual == expected
 
 def test_sum_series_opt_lucas():

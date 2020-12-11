@@ -27,7 +27,7 @@
 #   return first
 
 
-def fib_num(n):
+def fibbonacci(n):
   """fn returns Nth fibbonaci value
      value lives at index n-1
   """
@@ -39,7 +39,7 @@ def fib_num(n):
  
  
 
-def lucas_num(n):
+def lucas(n):
   """ fn returns Nth lucas number
       value lives at index n-1
   """
